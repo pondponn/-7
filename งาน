@@ -1,0 +1,21 @@
+money=int(input("รายได้"))
+if money<70000:
+    print("บัตรเงิน")
+if money>70000 and money<100000:
+    print("บัตรทอง")
+else :
+    print("บัตร Platinum")
+print("จบงาน")
+point=int(input("คะแนน"))
+if point>=80:
+    print("A")
+if point<=79 and point>=70:
+    print("B")
+if point<=69 and point>=60:
+    print("C")
+if point<=59 and point>=50:
+    print("D")
+else :
+    print("F")
+print ("จบงาน")
+print("จิรานุวัฒน์ ขันธ์นิตย์ 510-21")
